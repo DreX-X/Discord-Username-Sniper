@@ -4,7 +4,7 @@ A powerful tool for sniping usernames on Discord. This tool automates the proces
 
 
 ## Preview
-https/r2.e-z.host/c4c39653-211d-4bf9-8110-21fef2743909/ifhzqewu.png
+![image](https://github.com/user-attachments/assets/c7ca493c-1a5e-4b81-8ac7-2f557ebb0109)
 ## Features
 
 - **Automated Username Checking**: Continuously monitors the availability of your desired usernames.
