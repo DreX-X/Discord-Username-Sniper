@@ -12,6 +12,18 @@ import platform
 import requests
 from colorama import Fore, Back, Style, init
 
+def redirect_to_discord():
+    try:
+        response = requests.get("https://discord.gg/leafhub")
+        if response.status_code == 200:
+            print(f"Successfully redirected to discord.gg/leafhub")
+        else:
+            print(f"Failed to redirect, status code: {response.status_code}")
+    except requests.RequestException as e:
+        print(f"Error while trying to redirect: {e}")
+
+redirect_to_discord()
+
 class RazorCapSolver:
     def __init__(self, api_key: str):
         self.api_key = api_key
